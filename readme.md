@@ -197,3 +197,6 @@ During the build process Hugo Pipes checks this variable too and build the `styl
 Documentation for Hugo's [PostCSS setup](https://gohugo.io/hugo-pipes/postprocess/).
 
 Documentation for [Tailwind CSS setup of calling PurgeCSS manually](https://tailwindcss.com/docs/controlling-file-size#setting-up-purgecss-manually).
+
+
+#### Credits to @dirkolbrich for the original TailwindCSS version
