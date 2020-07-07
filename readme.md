@@ -1,8 +1,7 @@
-# Hugo Starter Theme with Tailwind CSS & UI
+# Hugo Starter Theme with Tailwind UI
 
-Starter files for a Hugo theme with Tailwind CSS & UI.
+Starter files for a Hugo theme with Tailwind UI.
 
-- set up to use [Tailwind CSS](https://tailwindcss.com)
 - set up to use [Tailwind UI](https://tailwindui.com)
 - use [Hugo Pipes](https://gohugo.io/hugo-pipes/) to build and load css based on `dev` or `build` environment
 - purge unused css classes with [PurgeCSS](https://www.purgecss.com) for `build`, but __not__ in `dev`
