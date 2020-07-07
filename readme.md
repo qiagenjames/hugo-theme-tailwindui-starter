@@ -1,8 +1,9 @@
-# Hugo Starter Theme with Tailwind CSS
+# Hugo Starter Theme with Tailwind CSS & UI
 
-Starter files for a Hugo theme with Tailwind CSS.
+Starter files for a Hugo theme with Tailwind CSS & UI.
 
-- set up to use [Tailwind CSS](https://tailwindcss.com) - v1.4
+- set up to use [Tailwind CSS](https://tailwindcss.com)
+- set up to use [Tailwind UI](https://tailwindui.com)
 - use [Hugo Pipes](https://gohugo.io/hugo-pipes/) to build and load css based on `dev` or `build` environment
 - purge unused css classes with [PurgeCSS](https://www.purgecss.com) for `build`, but __not__ in `dev`
 - works as separate theme repo or as a local theme folder within a Hugo site
@@ -29,7 +30,7 @@ Make sure to use a minimum Hugo version of v0.69.0 and above.
 - clone and rename the repo
 
 ```bash
-git clone https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter new-theme-name
+git clone https://github.com/hostbend/hugo-theme-tailwindui-starter new-theme-name
 ```
 
 - to make that theme your own, switch into the newly created folder, remove the git history from this starter repo and initiate a new git repo
@@ -71,7 +72,7 @@ hugo new site new-site
 
 ```bash
 cd new-site/themes
-git clone https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter new-theme-name
+git clone https://github.com/hostbend/hugo-theme-tailwindui-starter new-theme-name
 ```
 
 - switch into the newly created theme folder, remove the git history from this starter repo and install the node packages
@@ -137,7 +138,10 @@ That is, Netlify doesn't know the `npm` dependencies of this starter theme yet. 
         "> 1%",
         "maintained node versions",
         "not dead"
-    ]
+    ],
+    "dependencies": {
+        "@tailwindcss/ui": "^0.3.0"
+    }
 }
 ```
 
