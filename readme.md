@@ -199,4 +199,4 @@ Documentation for Hugo's [PostCSS setup](https://gohugo.io/hugo-pipes/postproces
 Documentation for [Tailwind CSS setup of calling PurgeCSS manually](https://tailwindcss.com/docs/controlling-file-size#setting-up-purgecss-manually).
 
 
-#### Credits to @dirkolbrich for the original TailwindCSS version
+#### [Credits to @dirkolbrich for the original TailwindCSS version](https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter)
